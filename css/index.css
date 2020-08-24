@@ -38,15 +38,16 @@ justify-content: center;
 justify-content: flex-start;
 
 }
-.header .navigate {
+.nav {
     justify-content: flex-end;
+    color: #266035;
 
 }
 
 
 body {
     line-height: 1;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-family: 'Oxygen', sans-serif;
 }
 h1 {
@@ -65,7 +66,11 @@ h3 {
 }
 h5 {
     font-family: 'Oxygen', sans-serif;
-    font-size: .8rem;
+    font-size: 1rem;
+}
+p {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.6rem;
 }
 
 
