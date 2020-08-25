@@ -14,7 +14,7 @@
 * all alt tags are filled out for accessibility
 * in your navigation, home should link to the top of the page, about should link to the about section, plants should link to the shop section and contact should link to the contact section. 
 
-### CSS
+### 
 * background color of site  and h1 is  #FBFFFB
 * Use scalable units for sizing of containers, fonts, margin, padding where possible (%, em, rem, vh, vw, etc.) avoid the use of px 
 * Title font: Oxygen
