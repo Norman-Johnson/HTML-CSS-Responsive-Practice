@@ -75,16 +75,18 @@ h1 {
 h2 {
     font-family: 'Oxygen', sans-serif;
     font-size: 3rem;
-    color: green;
+    color: #266035;
 
 }
 h3 {
     font-family: 'Oxygen', sans-serif;
     font-size: 2.5rem;
+    color: #266035;
 }
 h5 {
     font-family: 'Oxygen', sans-serif;
     font-size: 1.8rem;
+    color: #fbfffb;
 }
 p {
     font-family: 'Source Serif Pro', serif;
@@ -100,21 +102,21 @@ p {
     background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 120vh;
+  height: 80vh;
 
 }
 #btnhome {
     width: 20%;
     margin: 1.5% 2%;
     border-radius: 7px;
-    background-color: white;
-    color: green;
+    background-color: #fbfffb;
+    color: #266035;
     padding: 1.5% 2%;
     font-size: 1.5rem;
 }
 #btnhome:hover {
-color: white;
-background-color: green;
+color: #fbfffb;
+background-color: #266035;
 }
 #About {
     display: flex;
@@ -126,7 +128,7 @@ background-color: green;
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 120vh;
+  height: 80vh;
 
 }
 #ourstory {
@@ -136,4 +138,63 @@ background-color: green;
     width: 100%;
     text-align: center;
 
+}
+#Plants {
+    width: 100%;
+    height: 150vh;
+
+}
+
+
+.img {
+    display: flex;
+    width:50%;
+    height: 50vh;
+
+}
+.succulents {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    widows: 50%;
+    height: 50vh;
+}
+.button {
+    width: 10%;
+    margin: .5% 1%;
+    border-radius: 3px;
+    background-color: green;
+    color: #fbfffb;
+    padding: .5% 1%;
+    font-size: 1rem;
+}
+
+.cacti {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    widows: 50%;
+    height: 50vh;
+}
+
+
+.tropicals {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    widows: 50%;
+    height: 50vh;
+}
+footer{
+    display: flex;
+
+    width:100%;
+    height: 80vh;
+    background-color: #266035;
 }
