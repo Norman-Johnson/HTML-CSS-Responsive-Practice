@@ -6,7 +6,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet"> 
 
-    @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Source+Serif+Pro:wght@300&display=swap');
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/css/index.css">
     
@@ -18,38 +18,41 @@
             <div class="logo">
                    <img src="images/logo.png" alt="Watering can pouring water on plants"/>
               </div>
-               <div class="navigation">
-                  <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Plants</a>
-                <a href="#">Contacts</a>
+               <!-- <div > -->
+                  <nav class="navigation">
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Plants">Plants</a>
+                <a href="#C ontacts">Contacts</a>
                   </nav>
-              </div>
+              <!-- </div> -->
             </header>
             
-            <section id="Home">
+            <div id="Home">
                 <h1>The Watering Can</h1>
-                <img src="images/header.jpg" alt="large leafed plant">
-                <button>Shop Our Indoor Plant Sale!
+               
+                <button id="btnhome">Shop Our Indoor Plant Sale!
                 </button>
-            </section>
+            </div>
             <section id="About">
-                <div>
-                    <img src="images/about-img.jpg" alt="long stemmed leaf in a clear bowl of water">
-                </div>
-                <div>
+              
+                <div id="ourstory">
                     <h2>Our Story</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, atque alias doloribus architecto ipsum ad nulla modi eveniet quisquam consequatur. Quasi, iusto alias maiores eos debitis qui minus aspernatur blanditiis?</p>
                 </div>
             </section>
+
             <section id="Plants">
+
+                <div id="ourplants">
+                     <h2>Our Plants</h2>
+                </div>
                 <div>
                     <img src="images/succulants.jpg" alt="miscellaneous small succulent plants">
                 </div>
-                <div class="h2">
-                    <h2>Our Plants</h2>
-                </div>
+                
+                   
+                
                 <div class="Succulents">
                     <h3>Succulents</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, laboriosam. Ipsam odio et labore dignissimos accusamus. Quia voluptatum incidunt cum nam dolores, itaque sunt autem architecto unde, vel veniam ratione!</p>
@@ -61,7 +64,7 @@
                     <button>Shop Now!</button>
                 </div>
                 <div>
-                    <img src="images/cacti.jpg" alt="differing sixe, shape and height cactus plants">
+                    <img src="images/cacti.jpg" alt="differing size, shape and height cactus plants">
                 </div>
                 <div>
                     <img src="images/tropicals.jpg" alt="large tropical leaves">
@@ -75,17 +78,17 @@
             </section>
             <footer id="Contacts">
            
-                <div>
+                
                     <h2>Get In Touch</h2>
-                </div>
+                
                 <div>
                     <h3>Find us here:</h3>
                     <address>123 Plant Lane<br>
                     Bloomfield Ontario,<br>
-                Canada L2G0X7</address>
+                Canada L2G 0X7</address>
                 <br>
-                <phone>+1-613-978-8282</phone>
-                <mailto: info@thewateringcan.ca></mailto:>
+                <a href="tel:+1-613-978-8282">+1-613-978-8282</a>
+                <a href="mailto: info@thewateringcan.ca">info@thewateringcan.ca</a>
                 <h5>@the wateringcan on the socials</h5>
 
                 </div>
